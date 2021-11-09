@@ -1,0 +1,8 @@
+{
+  "name": "@next-ssp/grouped-topsort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ivansky/topological-grouped-sort.git",
+  "author": "Ivan Martianov <i@ivansky.ru>",
+  "license": "MIT"
+}

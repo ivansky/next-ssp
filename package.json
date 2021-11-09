@@ -1,0 +1,30 @@
+{
+  "name": "next-ssp",
+  "description": "Nextjs SSP utils",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "git@github.com:ivansky/next-ssp.git",
+  "author": "Ivan Martianov <i@ivansky.ru>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "yarn jest",
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "@babel/preset-typescript": "7.15.0",
+    "@types/jest": "27.0.2",
+    "babel-jest": "27.3.1",
+    "jest": "27.3.1",
+    "lerna": "4.0.0",
+    "prettier": "2.4.1",
+    "typescript": "4.4.4"
+  },
+  "engines": {
+    "node": ">=12.22.0"
+  }
+}
